@@ -85,20 +85,5 @@ python src/transform.py
 - `relative_humidity_2m` : Humidité relative en %
 - `wind_speed_10m` : Vitesse du vent en km/h
 
-##  Dépendances
 
-- **requests** : Pour les appels API
-- **pandas** : Pour la manipulation et le nettoyage des données
-
-##  Notes
-
-- Les fichiers de données (`data/raw/` et `data/processed/`) sont ignorés par Git (voir `.gitignore`)
-- Le pipeline est conçu pour être similaire à un workflow Airflow (orchestration séquentielle)
-
-##  Prochaines étapes
-
-- Ajout de gestion d'erreurs plus robuste
-- Support de plusieurs localisations
-- Planification automatique (cron, Airflow)
-- Visualisation des données
 
